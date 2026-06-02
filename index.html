@@ -1,46 +1,324 @@
-<section class="hero">
-    <h1>Professional Auto Repair Services</h1>
-    <p>Reliable, fast, and affordable service in Nassau, Bahamas.</p>
-    <a class="btn" href="#contact">Get a Free Quote</a>
-</section>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<section>
-    <h2>Our Services</h2>
+<title>Ember & Oak | Fine Dining Experience</title>
 
-    <div class="grid">
-        <div class="service-card">
-            <h3>Oil Changes</h3>
-            <p>Fast and affordable oil change service.</p>
-        </div>
+<link rel="stylesheet" href="style.css">
 
-        <div class="service-card">
-            <h3>Brake Repair</h3>
-            <p>Safe and professional brake inspection and repair.</p>
-        </div>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
 
-        <div class="service-card">
-            <h3>Engine Diagnostics</h3>
-            <p>We find and fix engine issues quickly.</p>
-        </div>
+<body>
+
+<!-- Background Glows -->
+
+<div class="bg-glow glow-1"></div>
+<div class="bg-glow glow-2"></div>
+
+<!-- Navbar -->
+
+<nav class="navbar" id="navbar">
+
+    <div class="logo">
+        Ember <span>& Oak</span>
     </div>
-</section>
 
-<section>
-    <h2>Why Choose Us</h2>
-    <div class="grid">
-        <div class="service-card">✔ Experienced Technicians</div>
-        <div class="service-card">✔ Affordable Pricing</div>
-        <div class="service-card">✔ Fast Turnaround</div>
+    <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Reserve</a></li>
+    </ul>
+
+    <a href="#contact" class="nav-btn">
+        Reserve Table
+    </a>
+
+</nav>
+
+<!-- Hero -->
+
+<section id="home" class="hero">
+
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+
+        <p class="hero-tag">
+            FINE DINING • PREMIUM EXPERIENCE
+        </p>
+
+        <h1>
+            Fine Dining
+            <span>Reimagined</span>
+        </h1>
+
+        <p class="hero-description">
+            Discover exceptional cuisine, handcrafted cocktails,
+            and an unforgettable dining experience in the heart
+            of the city.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#menu" class="primary-btn">
+                View Menu
+            </a>
+
+            <a href="#contact" class="secondary-btn">
+                Reserve Table
+            </a>
+
+        </div>
+
     </div>
+
 </section>
 
-<section id="contact">
-    <h2>Contact Us</h2>
-    <p>📞 (242) XXX-XXXX</p>
-    <p>📍 Nassau, Bahamas</p>
-    <a class="btn" href="mailto:info@business.com">Send Email</a>
+<!-- Stats -->
+
+<section class="stats">
+
+    <div class="stat-card">
+        <h2 class="counter" data-target="15">0</h2>
+        <p>Years Serving Guests</p>
+    </div>
+
+    <div class="stat-card">
+        <h2 class="counter" data-target="5000">0</h2>
+        <p>Happy Diners</p>
+    </div>
+
+    <div class="stat-card">
+        <h2 class="counter" data-target="4">0</h2>
+        <p>Average Rating</p>
+    </div>
+
 </section>
+
+<!-- Featured Dishes -->
+
+<section id="menu" class="section">
+
+    <div class="section-header">
+        <h2>Featured Dishes</h2>
+        <p>
+            Signature creations crafted from premium ingredients.
+        </p>
+    </div>
+
+    <div class="menu-grid">
+
+        <div class="menu-card reveal">
+            <div class="menu-image"></div>
+            <h3>Tomahawk Steak</h3>
+            <p>
+                Perfectly aged and grilled to perfection.
+            </p>
+        </div>
+
+        <div class="menu-card reveal">
+            <div class="menu-image"></div>
+            <h3>Seafood Platter</h3>
+            <p>
+                Fresh local seafood with chef's selection.
+            </p>
+        </div>
+
+        <div class="menu-card reveal">
+            <div class="menu-image"></div>
+            <h3>Truffle Pasta</h3>
+            <p>
+                Handmade pasta with black truffle cream.
+            </p>
+        </div>
+
+        <div class="menu-card reveal">
+            <div class="menu-image"></div>
+            <h3>Signature Dessert</h3>
+            <p>
+                A sweet finish to an unforgettable evening.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- About -->
+
+<section id="about" class="section dark-section">
+
+    <div class="about-grid">
+
+        <div class="about-image reveal"></div>
+
+        <div class="about-content reveal">
+
+            <h2>
+                Crafted With Passion
+            </h2>
+
+            <p>
+                Ember & Oak was founded with a simple vision:
+                create extraordinary dining experiences through
+                exceptional food, hospitality, and atmosphere.
+            </p>
+
+            <p>
+                Every dish is thoughtfully prepared by our culinary
+                team using fresh ingredients and timeless techniques.
+            </p>
+
+            <a href="#contact" class="primary-btn">
+                Book Your Table
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Menu Preview -->
+
+<section class="section">
+
+    <div class="section-header">
+        <h2>Menu Highlights</h2>
+        <p>
+            Some guest favorites.
+        </p>
+    </div>
+
+    <div class="pricing-grid">
+
+        <div class="price-card reveal">
+            <h3>Ribeye Steak</h3>
+            <h4>$42</h4>
+        </div>
+
+        <div class="price-card reveal">
+            <h3>Lobster Tail</h3>
+            <h4>$48</h4>
+        </div>
+
+        <div class="price-card reveal">
+            <h3>Truffle Pasta</h3>
+            <h4>$28</h4>
+        </div>
+
+        <div class="price-card reveal">
+            <h3>Chocolate Soufflé</h3>
+            <h4>$14</h4>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Gallery -->
+
+<section id="gallery" class="section dark-section">
+
+    <div class="section-header">
+        <h2>Gallery</h2>
+
+        <p>
+            A glimpse into the Ember & Oak experience.
+        </p>
+    </div>
+
+    <div class="gallery-grid">
+
+        <div class="gallery-card"></div>
+        <div class="gallery-card"></div>
+        <div class="gallery-card"></div>
+        <div class="gallery-card"></div>
+        <div class="gallery-card"></div>
+        <div class="gallery-card"></div>
+
+    </div>
+
+</section>
+
+<!-- Testimonials -->
+
+<section class="section">
+
+    <div class="section-header">
+        <h2>Guest Reviews</h2>
+    </div>
+
+    <div class="testimonial-grid">
+
+        <div class="testimonial-card reveal">
+            <p>
+                "One of the best dining experiences we've ever had."
+            </p>
+            <h4>★★★★★</h4>
+        </div>
+
+        <div class="testimonial-card reveal">
+            <p>
+                "Exceptional food and impeccable service."
+            </p>
+            <h4>★★★★★</h4>
+        </div>
+
+        <div class="testimonial-card reveal">
+            <p>
+                "The atmosphere alone is worth the visit."
+            </p>
+            <h4>★★★★★</h4>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Reservation CTA -->
+
+<section id="contact" class="contact-section">
+
+    <h2>
+        Reserve Your Table
+    </h2>
+
+    <p>
+        Experience fine dining at its finest.
+    </p>
+
+    <div class="contact-buttons">
+
+        <a href="#" class="primary-btn">
+            Book Reservation
+        </a>
+
+        <a href="#" class="secondary-btn">
+            Contact Us
+        </a>
+
+    </div>
+
+</section>
+
+<!-- Footer -->
 
 <footer>
-    © 2026 Business Name. All rights reserved.
+
+    <p>
+        © 2026 Ember & Oak Restaurant
+    </p>
+
 </footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
