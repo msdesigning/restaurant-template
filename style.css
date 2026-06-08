@@ -411,7 +411,6 @@ color:var(--copper);
 }
 
 .gallery-card{
-    height:280px;
     border-radius:20px;
     overflow:hidden;
     transition:.4s;
